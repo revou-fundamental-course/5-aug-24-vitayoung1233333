@@ -18,6 +18,17 @@ background: aliceblue;
 border-radius: 2px;
 }
 
+@media (max-width: 768px) {
+  /* Gaya untuk layar dengan lebar maksimal 480px */
+  
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
 article {padding: 2px;
 background-color: lightgrey;
 border-radius: 2px;}
@@ -40,6 +51,11 @@ border-radius: 2px;}
     display: table;
     clear: both;
   }
-
+  
+  @media (max-width: 768px) {
+    .item {
+      width: 100%; /* Lebar setiap item menjadi 100% pada tampilan mobile */
+    }
+  }
 
   
